@@ -1,5 +1,5 @@
 .article {
-    margin-bottom: 50px;
+    margin: 0 10px 50px;
         figure {
             // height: 205px;
             width: 100%;
@@ -7,6 +7,8 @@
             background-position: center bottom;
             background-repeat: no-repeat;
             border-bottom: solid 5px $color-1;
+            background-size: contain;
+            height: 205px;
         
         }
         .wrap {
@@ -33,7 +35,20 @@
 .Ai {
     figure {
         background-image: url(../../asset/articles/AiMobil.jpg);
-        background-size: contain;
-        height: 205px;
+    }
+}
+.Ki {
+    figure {
+        background-image: url(../../asset/articles/KiMobil.jpg);
+    }
+}
+.Do {
+    figure {
+        background-image: url(../../asset/articles/DoMobil.jpg);
+    }
+}
+.Ak {
+    figure {
+        background-image: url(../../asset/articles/jupeMobil.jpg);
     }
 }

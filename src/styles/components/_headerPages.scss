@@ -6,14 +6,14 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("../../assets/imageHeader.jpg");
-    height: 50vh;
+    height: 30vh;
     p {
         text-align: center;
         font-size: 17px;
         padding: 20px;
         color: $color-3;
         font-weight: 700;
-        margin: 100px auto;
+        margin: 60px auto;
         width: 60%;
         .span-histoire {
             display: inline-block;
@@ -33,6 +33,7 @@
 @media screen and (min-width: 750px) {
     .headerHistory {
         padding-bottom: 100px;
+        height: 40vh;
     p {
         text-align: center;
         font-size: 15px;
@@ -47,7 +48,7 @@
     .headerHistory {
         p{
             width: 40%;
-            margin: 147px auto 50px;
+            margin: 130px auto 50px;
         }
     }
 }

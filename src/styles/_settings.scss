@@ -1,0 +1,16 @@
+
+$font-1: "Roboto", sans-serif;
+
+$color-1: #EC9A8A;
+$color-2: #FAF3F3;
+$color-3: #474747;
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:$color-3;
+    margin: 0;
+}
+.home {
+    margin: 0 auto;
+    background-color: $color-3;
+}

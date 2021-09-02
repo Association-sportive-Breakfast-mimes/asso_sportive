@@ -27,7 +27,25 @@
                 font-size: 14px;
             }
         }
-}
+    }
+    .morale {
+        display: flex;
+        flex-wrap: wrap;
+        h1 {
+            width: 100%;
+        }
+        p {
+            width: 100%;
+        }
+        ul {
+            width: 45%;
+            margin-block-start: 0;
+            padding-inline-start: 0;
+            margin: 0 5px;
+            line-height: 2;
+            font-size: 14px;
+        }
+    }
 .Ai {
     figure {
         background-image: url(../../assets/articles/AiMobil.jpg);

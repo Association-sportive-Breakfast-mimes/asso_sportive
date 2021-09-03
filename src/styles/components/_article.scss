@@ -5,13 +5,14 @@
             margin: 0;
             background-position: center bottom;
             background-repeat: no-repeat;
-        
         }
         .wrap {
             padding: 25px 30px;
             color: $color-3;
             background-color: $color-2;
             opacity: 0.78;
+            border-top: solid 5px $color-1;
+
             h1 {
                 font-size: 18px;
                 letter-spacing: 1px;
@@ -27,29 +28,111 @@
                 font-size: 14px;
             }
         }
+}
+.morale {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    h1 {
+        width: 100%;
     }
-    .morale {
-        display: flex;
-        flex-wrap: wrap;
-        h1 {
-            width: 100%;
-        }
-        p {
-            width: 100%;
-        }
-        ul {
+    p {
+        width: 100%;
+    }
+    ul {
             width: 45%;
-            margin-block-start: 0;
-            padding-inline-start: 0;
-            margin: 0 5px;
-            line-height: 2;
-            font-size: 14px;
-        }
+        margin-block-start: 0;
+        padding-inline-start: 0;
+        margin: 0 5px;
+        line-height: 2;
+        font-size: 14px;
     }
+}
+
 .Ai {
     figure {
         background-image: url(../../assets/articles/AiMobil.jpg);
         background-size: contain;
         height: 205px;
     }
+}
+
+.history {
+    .article {
+        h1 {
+            font-weight: 700;
+            color: $color-1;
+        }
+        li {
+            font-size: 14px;
+        }
+    }
+}
+
+.Hist1 {
+    figure {
+        background-image: url(../../assets/img-histoire/photoSenseiMobile.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        height: 400px;
+    }
+}
+.Hist2 {
+    figure {
+        background-image: url(../../assets/img-histoire/physiqueMobile.png);
+        background-size: contain;
+        background-position: center bottom;
+        height: 415px;
+        width: 100%;
+
+    }
+}
+.Hist3 {
+    figure {
+        background-image: url(../../assets/img-histoire/TechniqueMobile.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        height: 413px;
+    }
+}
+.Hist4 {
+    figure {
+        background-image: url(../../assets/img-histoire/MoraleMobile.jpg);
+        background-size: contain;
+        background-position: center bottom;
+        height: 420px;
+    }
+}
+.valeursEduc {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .imgValeursEduc {
+        height: 100px;
+    }
+    p {
+        text-align: center;
+        margin: 50px 20px;
+        color: $color-2;
+        span {
+            color: $color-1;
+            font-weight: 700;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 750px) {
+    .article {
+        .wrap {
+            margin: 0 40px;
+        }
+}
+.valeursEduc p {
+    margin: 50px 40px;
+}
 }

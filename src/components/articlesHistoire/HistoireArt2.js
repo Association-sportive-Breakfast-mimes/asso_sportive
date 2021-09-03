@@ -1,11 +1,11 @@
 import React from 'react';
-// import Figure from './Figure';
+import FigureHistoire from './FigureHistoire';
 import HistoireWrapper2 from './HistoireWrapper2';
 
 const HistoireArticle2 = () => {
     return (
         <div className='article Hist2'>
-            {/* <Figure /> */}
+            <FigureHistoire />
             <HistoireWrapper2 />
         </div>
     );

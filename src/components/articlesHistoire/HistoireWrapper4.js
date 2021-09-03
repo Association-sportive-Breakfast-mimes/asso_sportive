@@ -4,7 +4,7 @@ const HistoireWrapper4 = () => {
     return (
         <div className="wrap morale">
             <h1>3) Morale</h1>
-            <p>La coordination physique et mentale conditionne la réalisation de chaque technique, provoque en même temps que la transformation physique externe du corps une métamorphose interne morale.<br /><br />Par le respect du bushido, code d’honneur et de morale traditionnelle des arts martiaux japonais et l’esprit particulier de non violence qui caractérise l’Aïkido, le pratiquant acquière les valeurs morales les plus élévées telles que :</p>
+            <p>La <strong>coordination physique</strong> et <strong>mentale</strong> conditionne la réalisation de chaque technique, <strong>provoque</strong> en même temps que la <strong>transformation physique</strong> externe du corps une <strong>métamorphose interne morale</strong>.<br /><br />Par le respect du <strong>bushido</strong>, code d’honneur et de morale traditionnelle des arts martiaux japonais et l’<strong>esprit</strong> particulier de <strong>non violence</strong> qui caractérise l’Aïkido, le pratiquant acquière les <strong>valeurs morales</strong> les plus élévées telles que :</p>
             <ul>
             <li> modestie</li>
             <li> honneur</li>

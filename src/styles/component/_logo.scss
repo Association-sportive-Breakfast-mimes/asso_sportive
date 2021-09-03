@@ -11,3 +11,13 @@
         margin: 150px auto;
     }
 }
+.logo-svg {
+    display: none;
+    path {
+        &:nth-child(1) {
+        stroke-dasharray: 5px;
+        display: none;
+    }
+    }
+    
+}

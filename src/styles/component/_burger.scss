@@ -18,7 +18,7 @@
     position: absolute;
     top: 70%;
     transform: translateY(-50%);
-    transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s;
 }
 
 /*top / bottom burger bar icon*/
@@ -62,9 +62,9 @@
 .burger-open {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     position: fixed;
+    padding-top: 30%;
     left: 0;
     right: 0;
     background-color: $color-3;

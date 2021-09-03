@@ -1,0 +1,157 @@
+.article {
+    margin: 0 10px 50px;
+        figure {
+            width: 100%;
+            margin: 0;
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            border-bottom: solid 5px $color-1;
+            background-size: contain;
+            height: 205px;     
+        }
+        .wrap {
+            padding: 25px 30px;
+            color: $color-3;
+            background-color: $color-2;
+            opacity: 0.78;
+            h1 {
+                font-size: 18px;
+                letter-spacing: 1px;
+                font-weight: 400;
+                margin-top: 0;
+                span {
+                    color: $color-1;
+                    font-weight: 700;
+                }
+            }
+            p {
+                line-height: 1.3;
+                font-size: 14px;
+            }
+        }
+}
+.Ai {
+    figure {
+        background-image: url(../../asset/articles/AiMobil.jpg);
+    }
+}
+.Ki {
+    figure {
+        background-image: url(../../asset/articles/KiMobil.jpg);
+    }
+}
+.Do {
+    figure {
+        background-image: url(../../asset/articles/DoMobil.jpg);
+    }
+}
+.Ak {
+    figure {
+        background-image: url(../../asset/articles/jupeMobil.jpg);
+    }
+}
+
+
+@media screen and (min-width: 425px) {
+    .wrap {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .article {
+        figure {
+            border: 0;
+        }
+    }
+}
+@media screen and (min-width: 750px) {
+    .wrap {
+        width: 40%;
+        margin: 0 auto;
+        position: relative;
+    }
+    .article {
+        margin: 0;
+        figure {
+            border: 0;
+            height: 300px;
+            width: 400px;
+            position: relative;
+            left: 50%;
+            transform: translate(-80%, 0%);    
+            // border-left: solid 5px $color-2;
+            // border-bottom: solid 5px $color-2;
+            background-size: cover;
+            box-shadow: 5px 5px $color-2;
+        }
+        .wrap {
+            box-shadow: -5px -5px $color-1;
+            position: relative;
+            left: 50%;
+            transform: translate(-65%, -30%);    
+        }
+        &:nth-of-type(odd) {
+            figure {
+                box-shadow: -5px 5px $color-2;
+                position: relative;
+                right: 50%;
+                transform: translate(-20%, 0%);    
+            }
+            .wrap {
+                position: relative;
+                left: -65%;
+                transform: translate(100%, -30%);
+                box-shadow: 5px -5px $color-1;
+            }
+        }
+    }
+    .Ai{
+        figure {
+            background-image: url(../../asset/articles/AiDesktop.jpg); 
+        }
+    }
+    .Ki{
+        figure {
+            background-image: url(../../asset/articles/KiDesktop.jpg); 
+        }
+    }
+    .Do{
+        figure {
+            background-image: url(../../asset/articles/DoDesktop.jpg); 
+        }
+    }
+    .Ak{
+        figure {
+            background-image: url(../../asset/articles/jupedesktop.jpg); 
+        }
+    }
+}
+@media screen and (min-width: 1024px) {
+    .article {
+        .wrap {
+            width: 30%;
+            transform: translate(-100%, -30%);
+        }
+        &:nth-of-type(odd) {
+            figure {
+                box-shadow: -5px 5px $color-2;
+                position: relative;
+                right: 50%;
+                transform: translate(-20%, 0%);    
+            }
+            .wrap {
+                position: relative;
+                left: -49%;
+                transform: translate(100%, -30%);
+                box-shadow: 5px -5px $color-1;
+            }
+        }
+    }
+}
+@media screen and (min-width: 1400px) {
+    .article {
+        figure {
+            height: 400px;
+            width: 600px;
+        }
+    }
+}

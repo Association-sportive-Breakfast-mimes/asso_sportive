@@ -3,8 +3,8 @@ import React from 'react';
 const Wrapper1 = () => {
     return (
         <div className="wrap">
-            <h1>“Aï”, le principe d’harmonie en Aïkido</h1>
-            <p>Le kanji 合 (Aï) qui compose le mot Aïkido recouvre les notions de réunion, harmonie, unification, réunir ses forces, faire des efforts communs, conformité, assortir. Aï a la même connotation que la mère qui protège son enfant. En fait, ce aï correspond plus exactement à la rencontre harmonieuse, la capacité à harmoniser son comportement entre partenaires. Le aï de l’aïkido n’a de sens que parce qu’une rencontre, une connexion s’établit : pratiquer l’aïkido seul n’a pas de sens.</p>
+            <h1><span>“Do”</span>, la voie en Aïkido</h1>
+            <p>La Voie n’est que matière à faire face à nous-même, et de franchir notre ‘zone de confort’. Surmonter les difficultés permettra au pratiquant le développement de sa volonté et sa capacité à progresser. Chaque revers n’est en fait qu’une aide sur cette Voie de l’accomplissement de soi. Ce qui implique nécessairement d’affronter ses propres défauts et faiblesses, et de maîtriser notre propre orgueil, nos doutes, notre impatience, voire notre lâcheté.</p>
         </div>
     );
 };

@@ -1,14 +1,14 @@
 import React from 'react';
-import Figure from './figure';
-import Wrapper from './Wrapper1';
+import Figure from './Figure';
+import Wrapper4 from './Wrapper4';
 
-const Article3 = () => {
+const Article4 = () => {
     return (
-        <div className='article Aka'>
+        <div className='article Ak'>
             <Figure />
-            <Wrapper />
+            <Wrapper4 />
         </div>
     );
 };
 
-export default Article3;
+export default Article4;

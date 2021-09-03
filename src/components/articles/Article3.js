@@ -1,12 +1,12 @@
 import React from 'react';
 import Figure from './Figure';
-import Wrapper from './Wrapper1';
+import Wrapper3 from './Wrapper3';
 
 const Article3 = () => {
     return (
         <div className='article Do'>
             <Figure />
-            <Wrapper />
+            <Wrapper3 />
         </div>
     );
 };

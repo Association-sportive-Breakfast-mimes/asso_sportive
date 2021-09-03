@@ -1,24 +1,22 @@
-// import Home from "./page/home";
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <h1>Hello React</h1>
-//       <Home/>
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
 import React from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Home from './page/Home';
+import histoire from './page/histoire';
+import about from './page/about';
+
+
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
+    <BrowserRouter>
+<Switch>
+      <Route path="/" exact component={Home} />
+      <Route path="/histoire" exact component={histoire} />
+      <Route path="/asso" exact component={about} />
+      <Route path="/Horaires" exact component={about} />
+      <Route path="/Contact" exact component={about} />
+</Switch>
+    </BrowserRouter>
   );
 };
 

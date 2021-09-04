@@ -1,0 +1,42 @@
+.navigation {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+    display: none;
+            a{
+                padding: 10px 20px;
+                letter-spacing: 1px;
+                text-align: center;
+                color: $color-2;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 14px;
+                border-right: solid 2px $color-2;
+                &:hover {
+                    background-color: $color-3;
+                    color: $color-1;
+                }
+                &:nth-last-of-type(1) {
+                    border-right: none;
+                }
+                
+
+            }
+}
+
+@media screen and (min-width: 750px) {
+    .navigation {
+        display: flex;
+        a {
+            font-size: 18px;
+        }
+    }
+}
+@media screen and (min-width: 1400px) {
+    .navigation {
+        a {
+            font-size: 18px;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.intro {
+    height: 90px;
+    display: block;
+    margin: 50px auto;
+}
+@media screen and (min-width: 750px) {
+    .intro {
+        height: 120px;
+    }
+}

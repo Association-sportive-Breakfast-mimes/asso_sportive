@@ -4,14 +4,26 @@
     align-items: center;
     justify-content: center;
     align-content: center;
-    figure {
-        background-image: url(../../assets/img-asso/FigureAsso1.jpg);
-        background-size: cover;
-        background-position: center ;
-        width: 100vw;
-        height: 50vh;
-        margin: 0px;
-        margin-top: 2rem;
+    .figureAsso1 {
+        figure{
+            background-image: url(../../assets/img-asso/FigureAsso1.jpg);
+            background-size: cover;
+            background-position: center ;
+            width: 100vw;
+            height: 50vh;
+            margin: 0px;
+            margin-top: 2rem;
+        }
+    }
+    .AvantTout{
+        figure{
+            background-image: url(../../assets/img-asso/text_intro.svg) ;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center ;
+        }
+        width: 50vw;
+        height: 25vh;
     }
     .Assowrap {
         width: 85%;
@@ -38,17 +50,38 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        align-content: flex-start;
-        height: 100vh;
+        align-content: space-between;
+        height: 90vh;
         flex-direction: row;
-        figure {
-            transform: translate(2%, 0%);
-            width: 45vw;
-            height: 35vh;
+        .figureAsso1 {
+            figure{
+                transform: translate(2%, 0%);
+                width: 45vw;
+                height: 35vh;
+            }
         }
         .Assowrap {
             transform: translate(-2%, 100%);
             width: 45vw;
+        }
+        .AvantTout{
+            height: 25vh;
+            width: 85vw;
+            margin-bottom: 1rem;
+            figure{
+                height: 120px;
+                margin: 0px;
+            }
+            p{
+                text-align: center;
+                color: $color-2;
+                span {
+                    color: $color-1;
+                    font-weight: 700;
+                }
+                margin: 0px;
+                padding-top: .7rem;
+            }
         }
     }
 

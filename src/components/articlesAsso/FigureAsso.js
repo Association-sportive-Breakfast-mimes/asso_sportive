@@ -2,7 +2,9 @@ import React from 'react';
 
 const FigureAsso = () => {
     return (
-        <figure></figure>
+        <div className='figureAsso1'>
+            <figure></figure>
+        </div>
     );
 };
 

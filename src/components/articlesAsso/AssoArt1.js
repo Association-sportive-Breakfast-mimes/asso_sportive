@@ -4,8 +4,8 @@ import AssoWrapper1 from './AssoWrapper1';
 const AssoArticle1 = () => {
     return (
         <div className='articleAsso Asso1'>
-            <FigureAsso />
             <AssoWrapper1 />
+            <FigureAsso />
         </div>
     );
 };

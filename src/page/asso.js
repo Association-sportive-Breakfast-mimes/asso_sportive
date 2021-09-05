@@ -7,8 +7,8 @@ const asso = () =>{
     return (
         <div className="asso">
             <HeaderAsso />
-            <AssoArticle1 />
             <AssoArticle2 />
+            <AssoArticle1 />
             <AssoArticle3 />
         </div>
     )

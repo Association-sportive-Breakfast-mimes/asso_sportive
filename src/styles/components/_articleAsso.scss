@@ -9,10 +9,9 @@
             background-image: url(../../assets/img-asso/FigureAsso1.jpg);
             background-size: cover;
             background-position: center ;
-            width: 100vw;
-            height: 50vh;
+            width: 99vw;
+            height: 30vh;
             margin: 0px;
-            margin-top: 2rem;
         }
     }
     .AvantTout{
@@ -21,6 +20,18 @@
             background-size: contain;
             background-repeat: no-repeat;
             background-position: center ;
+            height: 120px;
+            margin: 0px;
+        }
+        p{
+            text-align: center;
+            color: $color-2;
+            span {
+                color: $color-1;
+                font-weight: 700;
+            }
+            margin: 0px;
+            padding-top: .7rem;
         }
         width: 50vw;
         height: 25vh;
@@ -68,20 +79,6 @@
             height: 25vh;
             width: 85vw;
             margin-bottom: 1rem;
-            figure{
-                height: 120px;
-                margin: 0px;
-            }
-            p{
-                text-align: center;
-                color: $color-2;
-                span {
-                    color: $color-1;
-                    font-weight: 700;
-                }
-                margin: 0px;
-                padding-top: .7rem;
-            }
         }
     }
 

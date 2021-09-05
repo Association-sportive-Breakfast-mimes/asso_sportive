@@ -1,7 +1,6 @@
 .Asso1 {
     display: flex;
-    flex-direction: column ;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     .figureAsso1 {
@@ -9,9 +8,10 @@
             background-image: url(../../assets/img-asso/FigureAsso1.jpg);
             background-size: cover;
             background-position: center ;
-            width: 99vw;
-            height: 30vh;
-            margin: 0px;
+            height: 35vh;
+            width: 90vw;
+            padding: 15px 20px;
+            margin: 2rem 0rem;
         }
     }
     .AvantTout{
@@ -35,15 +35,16 @@
         }
         width: 50vw;
         height: 25vh;
+        margin: 1rem 0rem;
     }
     .Assowrap {
-        width: 85%;
+        width: 90vw;
         padding: 15px 20px;
         color: $color-3;
         background-color: $color-2;
         opacity: 0.78;
         box-shadow: -2px -2px 2px 1px $color-1;
-        transform: translate(0%, -5%);
+        margin: 0px;
         h1 {
             font-size: 18px;
             letter-spacing: 1px;
@@ -58,27 +59,18 @@
 @media only screen and (min-width: 750px) {
     .Asso1 {
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        align-content: space-between;
-        height: 90vh;
+        flex-wrap: nowrap;
         flex-direction: row;
+        justify-content: center;
+        padding: 1rem;
         .figureAsso1 {
             figure{
-                transform: translate(2%, 0%);
-                width: 45vw;
+                width: 40vw;
                 height: 35vh;
             }
         }
         .Assowrap {
-            transform: translate(-2%, 100%);
-            width: 45vw;
-        }
-        .AvantTout{
-            height: 25vh;
-            width: 85vw;
-            margin-bottom: 1rem;
+            width: 35vw;
         }
     }
 

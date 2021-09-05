@@ -1,9 +1,9 @@
 import React from 'react';
 
-const FigureAsso1 = () => {
+const FigureAsso = () => {
     return (
-        <img className="figureAsso1" src="../../img-asso/FigureAsso1.jpg" alt="Un état d'esprit"></img>
+        <figure></figure>
     );
 };
 
-export default FigureAsso1;
+export default FigureAsso;

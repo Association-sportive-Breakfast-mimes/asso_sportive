@@ -1,12 +1,12 @@
 import React from 'react';
-import FigureAsso1 from './FigureAsso';
+import FigureAsso from './FigureAsso';
 import AssoWrapper1 from './AssoWrapper1';
 
 const AssoArticle1 = () => {
     return (
         <div className='articleAsso Asso1'>
+            <FigureAsso />
             <AssoWrapper1 />
-            <FigureAsso1 />
         </div>
     );
 };

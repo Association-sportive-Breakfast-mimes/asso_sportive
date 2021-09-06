@@ -12,12 +12,13 @@ h4 {
 }
 
 li {
+    list-style: none;
     line-height: 2em;
         a{
             color: $color-3;
         }
     :hover {
-        color: #EC9A8A;
+        color: $color-1;
     }
 }
 
@@ -44,23 +45,3 @@ a {
     
     
 }
-
-// .line {
-//     margin-bottom: 18px;
-//     margin: auto;
-//     width: 50%;
-//     height: 1px solid;
-// }
-
-// @media screen and (max-width: 650px) {
-//     footer ul {
-//         min-width: 200px;
-//     }
-//     footer a {
-//         width: 24px;
-//         height: 24px;
-//     }
-//     footer i {
-//         font-size: 0.6rem;
-//     }
-//     }

@@ -1,16 +1,16 @@
-import Header from "../components/Header";
-import Footer from "../Components/Footer";
-import Form from "../Components/Form";
-import Scrolltop from "../Components/Scrolltop";
+import Footer from "../components/Footer";
+import Form from "../components/Form";
+import Navigation from "../components/Navigation";
+import Scrolltop from "../components/Scrolltop";
 
 const contact = () =>{
     return (
         <div className="contact">
-            <Header />
+        <Navigation />
+            <h1>Formulaire de contact</h1>
             <Form />
             <Footer />
             <Scrolltop />
-            <h1>Formulaire de contact</h1>
         </div>
     )
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 const HistoireWrapper3 = () => {
     return (
-        <div className="wrap">
+        <div className="wrapH">
             <h1>2) Technique</h1>
             <p>L’<strong>étude des mouvements</strong> impose :</p>
             <ul> 

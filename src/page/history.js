@@ -3,6 +3,7 @@ import HistoireArticle2 from "../components/articlesHistoire/HistoireArt2";
 import HistoireArticle3 from "../components/articlesHistoire/HistoireArt3";
 import HistoireArticle4 from "../components/articlesHistoire/HistoireArt4";
 import ValeursEduc from "../components/articlesHistoire/ValeursEduc";
+import Footer from "../components/Footer";
 import HeaderHistory from "../components/HeaderHistory";
 
 const history = () =>{
@@ -14,6 +15,7 @@ const history = () =>{
             <HistoireArticle2 />
             <HistoireArticle3 />
             <HistoireArticle4 />
+            <Footer />
         </div>
 
     )

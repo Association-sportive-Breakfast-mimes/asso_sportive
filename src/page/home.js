@@ -2,6 +2,7 @@ import Article1 from "../components/articles/Article1";
 import Article2 from "../components/articles/Article2";
 import Article3 from "../components/articles/Article3";
 import Article4 from "../components/articles/Article4";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Intro from "../components/Intro";
 
@@ -14,6 +15,7 @@ const home = () =>{
             <Article2 />
             <Article3 />
             <Article4 />
+            <Footer />
         </div>
     )
 }

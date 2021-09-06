@@ -10,7 +10,7 @@ const HeaderAsso = () => {
         <Navigation />
         <LogoPages />
         <Burger />
-        <p>Nul ne peut m'enlever ma force puisque je ne m'en sers pas. <br /><span className="span-asso">- Morihei Ueshiba -</span></p>
+        <p>Nul ne peut m'enlever ma force puisque je ne m'en sers pas. <br /><span className="span-asso"> Morihei Ueshiba </span></p>
         </div>
     );
 };

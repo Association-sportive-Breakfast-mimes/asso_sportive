@@ -4,55 +4,32 @@
     align-content: space-around;
     justify-content: space-around;
     align-items: center;
-    
-    .carteP1{
-        figure{
-            background-color: rgb(163, 163, 163);
-            width: 220px;
-            height: 300px;
-            margin: 0px;
-            box-shadow: -2px -2px 2px 1px $color-1;
-            margin: 1rem;
-        }
+    .flip:hover{
+        transform: rotateY(180deg);
     }
-    .carteP2{
-        figure{
+    .flip{
+        // position: absolute;
+        transform-style: preserve-3d;
+        transition: all 0.5s ease;
+        width: 220px;
+        height: 300px;
+        box-shadow: -2px -2px 2px 1px $color-1;
+        margin: 1rem;
+        
+        .Devant{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
             background-color: rgb(163, 163, 163);
-            width: 220px;
-            height: 300px;
-            margin: 0px;
-            box-shadow: -2px -2px 2px 1px $color-1;
-            margin: 1rem;
         }
-    }
-    .carteP3{
-        figure{
-            background-color: rgb(163, 163, 163);
-            width: 220px;
-            height: 300px;
-            margin: 0px;
-            box-shadow: -2px -2px 2px 1px $color-1;
-            margin: 1rem;
-        }
-    }
-    .carteP4{
-        figure{
-            background-color: rgb(163, 163, 163);
-            width: 220px;
-            height: 300px;
-            margin: 0px;
-            box-shadow: -2px -2px 2px 1px $color-1;
-            margin: 1rem;
-        }
-    }
-    .carteP5{
-        figure{
-            background-color: rgb(163, 163, 163);
-            width: 220px;
-            height: 300px;
-            margin: 0px;
-            box-shadow: -2px -2px 2px 1px $color-1;
-            margin: 1rem;
+        .Derriere{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            visibility: hidden ;
+            background-color: rgba(163, 1, 1, 0.555);
+            transform: rotateY(180deg);
         }
     }
 }

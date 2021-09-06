@@ -1,11 +1,15 @@
-import React from 'react';
+import Footer from './Components/Footer';
+import Form from './Components/Form';
+import Scrolltop from './Components/Scrolltop';
 
 function App() {
   return (
-    <div>
-      <h1>Hello there this is et test</h1>
-    </div>
+  <div className="App">
+      <Form/>
+      <Footer />
+      <Scrolltop/>
+  </div>
   );
-};
+}
 
 export default App;

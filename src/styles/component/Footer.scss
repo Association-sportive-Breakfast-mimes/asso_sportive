@@ -1,0 +1,66 @@
+.main-footer {
+    font: "Roboto", sans-serif;
+    background: url(../../img/aikidman.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    bottom: 0;
+}
+
+h4 {
+    letter-spacing: 2px;
+    color: $color-3;
+}
+
+li {
+    line-height: 2em;
+        a{
+            color: $color-3;
+        }
+    :hover {
+        color: #EC9A8A;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+.span{
+    font-weight: 400;
+    font: $color-3;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 20px;
+    ul{
+        width: 50%;
+    }
+    .bot {
+        width :50%;
+        text-align: center;
+    }
+    
+    
+}
+
+// .line {
+//     margin-bottom: 18px;
+//     margin: auto;
+//     width: 50%;
+//     height: 1px solid;
+// }
+
+// @media screen and (max-width: 650px) {
+//     footer ul {
+//         min-width: 200px;
+//     }
+//     footer a {
+//         width: 24px;
+//         height: 24px;
+//     }
+//     footer i {
+//         font-size: 0.6rem;
+//     }
+//     }

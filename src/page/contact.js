@@ -1,7 +1,7 @@
 import Footer from "../components/Footer";
 import Form from "../components/Form";
 import Navigation from "../components/Navigation";
-import Scrolltop from "../components/Scrolltop";
+// import Scrolltop from "../components/Scrolltop";
 
 const contact = () =>{
     return (

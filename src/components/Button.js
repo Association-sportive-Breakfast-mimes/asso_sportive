@@ -99,7 +99,7 @@ const Button = () => {
                 </tbody>
             </table>
             <div className = "Map">
-                <div className = "img" alt ="map">
+                <div className = "img">
                 <img src = "./img/simplon.png" alt ="map"></img>
                 </div>
                 <div className = "par">

@@ -5,9 +5,6 @@
     justify-content: space-around;
     align-items: center;
 
-    .flip:hover{
-        transform: rotateY(180deg);
-    }
     .flip{
         // position: absolute;
         transform-style: preserve-3d;
@@ -31,5 +28,8 @@
             background-color: rgba(163, 1, 1, 0.555);
             transform: rotateY(180deg);
         }
+    }
+    .flip:hover{
+        transform: rotateY(180deg);
     }
 }

@@ -5,7 +5,6 @@ const logo = () => {
         <svg width="261" height="134" viewBox="0 0 261 134">
         <g>
             <g>
-
                 <rect x="129.4" y="36" className="st0" width="37.9" height="40.7"/>
                 <rect x="112.5" y="17.9" className="st1" width="36" height="34.3"/>
                 <rect x="146.5" y="61.4" className="st1" width="36" height="34.3"/>

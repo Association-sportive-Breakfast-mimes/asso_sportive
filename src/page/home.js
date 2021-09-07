@@ -10,12 +10,16 @@ const home = () =>{
     return (
         <div className="home">
             <Header />
-            <Intro />
-            <Article1 />
-            <Article2 />
-            <Article3 />
-            <Article4 />
+            <div className="center">
+                <Intro />
+                <Article1 />
+                <Article2 />
+                <Article3 />
+                <Article4 />
+            </div>
             <Footer />
+            
+            
         </div>
     )
 }

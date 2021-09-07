@@ -1,7 +1,7 @@
 import React from 'react';
 import LogoPages from './LogoPages';
-import Burger from "../components/Burger";
-import Navigation from "../components/Navigation";
+import Burger from "./Burger";
+import Navigation from "./Navigation";
 
 const HeaderAsso = () => {
     return (

@@ -6,6 +6,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("../../assets/header/headermobil.jpg");
+    // height: 60vh;
+
     p {
         text-align: center;
         font-size: 14px;
@@ -20,10 +22,10 @@
 @media screen and (min-width: 750px) {
     .head {
         background-image: url("../../assets/header/header.jpg");
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     p {
         width: 40%;
-        margin: 0 auto;
+        margin: 150px auto 0;
         font-weight: 700;
         letter-spacing: 1px;
         font-size: 16px;
@@ -35,7 +37,6 @@
     .head {
         p{
             width: 40%;
-            margin: 50px auto;
         }
     }
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import HeaderHoaire from '../components/HeaderHoraire';
+import Footer from "../components/Footer";
 
 const hours = () =>{
     return (
@@ -22,10 +23,10 @@ const hours = () =>{
                     </div>
                 </div>
                 
-                <img src="./img/aikido_adultes.jpg" alt="Photos aikido Adultes" class="img-grid img-grid-1"/>
+                <img src="./img/aikido_adultes.jpg" alt="Photos aikido Adultes" className="img-grid img-grid-1"/>
                 
-                <div class="bloc bloc-right bloc-2">
-                    <div class="bloc-txt-right">
+                <div className="bloc bloc-right bloc-2">
+                    <div className="bloc-txt-right">
                         <h3>Aikido Enfants</h3>
                         <p>L’Aïkido pratiqué par les enfants. Les cours sont donnés avec une démarche très ludique, 
                             tout en gardant l’esprit martial et la philosophiede désamorcer l’agression. L’efficacité 
@@ -39,9 +40,9 @@ const hours = () =>{
                     </div>
                 </div>
                 
-                <img src="./img/enfants-aikido.jpg" alt="aikido enfants" class="img-grid img-grid-2"/>
-                <div class="bloc bloc-left bloc-3">
-                    <div class="bloc-txt-left">
+                <img src="./img/enfants-aikido.jpg" alt="aikido enfants" className="img-grid img-grid-2"/>
+                <div className="bloc bloc-left bloc-3">
+                    <div className="bloc-txt-left">
                         <h3>Dates de compétitions</h3>
                         <p>La compétition impose des règles telles que de combattre à 1 contre 1, de ne pas 
                             frapper à tel ou tel endroit, de segmenter par âges ou poids, ou encore d’imposer 
@@ -53,13 +54,13 @@ const hours = () =>{
                         </div>
                     </div>
                 </div>
-                <img src="./img/images.jpg" alt="compétitions" class="img-grid img-grid-3"/>
+                <img src="./img/images.jpg" alt="compétitions" className="img-grid img-grid-3"/>
                 
-                <div class="ligne-gauche"></div>
-                <div class="ligne-droite"></div>
+                <div className="ligne-gauche"></div>
+                <div className="ligne-droite"></div>
             
             </section>
-
+            <Footer />
         </div>
     )
 }

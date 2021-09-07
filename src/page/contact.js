@@ -1,10 +1,14 @@
-import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Form from "../components/Form";
+import Navigation from "../components/Navigation";
 
 const contact = () =>{
     return (
         <div className="contact">
-            <Header />
+        <Navigation />
             <h1>Formulaire de contact</h1>
+            <Form />
+            <Footer />
         </div>
     )
 }

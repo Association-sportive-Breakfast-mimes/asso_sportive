@@ -1,0 +1,47 @@
+.main-footer {
+    font: "Roboto", sans-serif;
+    background: url(../../img/aikidman.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    bottom: 0;
+}
+
+h4 {
+    letter-spacing: 2px;
+    color: $color-3;
+}
+
+li {
+    list-style: none;
+    line-height: 2em;
+        a{
+            color: $color-3;
+        }
+    :hover {
+        color: $color-1;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+.span{
+    font-weight: 400;
+    font: $color-3;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 20px;
+    ul{
+        width: 50%;
+    }
+    .bot {
+        width :50%;
+        text-align: center;
+    }
+    
+    
+}

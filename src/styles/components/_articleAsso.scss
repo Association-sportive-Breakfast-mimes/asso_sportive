@@ -22,7 +22,7 @@
             background-image: url(../../assets/img-asso/FigureAsso1.jpg);
             background-size: cover;
             background-position: center ;
-            height: 35vh;
+            height: 25vh;
             width: 90vw;
             padding: 15px 20px;
             margin: 1rem 0rem;
@@ -85,9 +85,12 @@
                 height: 35vh;
             }
         }
-        .Assowrap {
+         .Assowrap {
             width: 35vw;
-            height: 25vh;
+            transform: translate(5%, 0%);
+            span{
+                color: $color-1;
+            }
         }
     }
 

@@ -10,7 +10,6 @@ const contact = () =>{
             <h1>Formulaire de contact</h1>
             <Form />
             <Footer />
-            <Scrolltop />
         </div>
     )
 }

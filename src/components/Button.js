@@ -1,9 +1,10 @@
 import React from 'react';
+import Navigation from './Navigation'
 
 const Button = () => {
     return (
         <div className = "table">
-            
+            <Navigation />
             <table className = "table-responsive">
                 <thead>
                     <tr>

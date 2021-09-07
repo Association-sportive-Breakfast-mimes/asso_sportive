@@ -1,0 +1,13 @@
+.logos {
+    height: 100px;
+    text-align: center;
+    display: block;
+    margin: 50px auto;
+    background-size: cover;
+}
+@media screen and (min-width: 750px) {
+    .logos {
+        height: 130px;
+        margin: 150px auto;
+    }
+}

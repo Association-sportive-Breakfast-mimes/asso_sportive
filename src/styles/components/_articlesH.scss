@@ -1,0 +1,182 @@
+.articleH {
+    margin: 0 10px 50px;
+        figure {
+            width: 100%;
+            margin: 0;
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        .wrapH {
+            padding: 25px 30px;
+            color: $color-3;
+            background-color: $color-2;
+            opacity: 0.78;
+            border-top: solid 5px $color-1;
+            h1 {
+                font-size: 18px;
+                letter-spacing: 1px;
+                font-weight: 400;
+                margin-top: 0;
+                span {
+                    color: $color-1;
+                    font-weight: 700;
+                }
+            }
+            p {
+                line-height: 1.3;
+                font-size: 14px;
+            }
+            li {
+                font-size: 14px;
+            }
+        }
+}
+.morale {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    h1 {
+        width: 100%;
+    }
+    p {
+        width: 100%;
+    }
+    ul {
+        width: 45%;
+        margin-block-start: 0;
+        padding-inline-start: 0;
+        margin: 0 5px;
+        line-height: 2;
+        font-size: 14px;
+        li {
+            font-size: 14px;
+        }
+    }
+}
+
+.history {
+    .article {
+        h1 {
+            font-weight: 700;
+            color: $color-1;
+        }
+
+    }
+}
+
+.Hist1 {
+    figure {
+        background-image: url(../../assets/img-histoire/photoSenseiMobile.jpg);
+        height: 400px;
+    }
+}
+.Hist2 {
+    figure {
+        background-image: url(../../assets/img-histoire/physiqueMobile.png);
+        height: 415px;
+        width: 100%;
+
+    }
+}
+.Hist3 {
+    figure {
+        background-image: url(../../assets/img-histoire/TechniqueMobile.jpg);
+        height: 413px;
+    }
+}
+.Hist4 {
+    figure {
+        background-image: url(../../assets/img-histoire/MoraleMobile.jpg);
+        height: 420px;
+    }
+}
+.valeursEduc {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .imgValeursEduc {
+        height: 100px;
+    }
+    p {
+        text-align: center;
+        margin: 50px 20px;
+        color: $color-2;
+        span {
+            color: $color-1;
+            font-weight: 700;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 750px) {
+    .articleH {
+        margin: 0px 50px;
+        .wrapH {
+            width: 40%;
+            margin: 0 auto;
+            position: relative;
+            box-shadow: -5px -5px $color-1;
+            border-top: 0;
+            left: 50%;
+            transform: translate(-65%, -30%); 
+        }
+        figure {
+            border: 0;
+            position: relative;
+            left: 50%;
+            transform: translate(-80%, 0%);    
+            background-size: contain;
+            box-shadow: 5px 5px $color-2;
+        }
+        &:nth-of-type(odd) {
+            figure {
+                box-shadow: -5px 5px $color-2;
+                position: relative;
+                right: 50%;
+                transform: translate(-20%, 0%);    
+            }
+            .wrapH {
+                position: relative;
+                left: -65%;
+                transform: translate(100%, -30%);
+                box-shadow: 5px -5px $color-1;
+            }
+        }
+}
+
+.Hist1 {
+    margin: 50px 50px -50px;
+    figure {
+        width: 306px;
+        height: 351px;
+    }
+}
+.Hist2 {
+    figure {
+        height: 394px;
+        width: 285px;
+
+    }
+}
+.Hist3 {
+    figure {
+        height: 389px;
+        width: 285px;
+    }
+}
+.Hist4 {
+    figure {
+        height: 380px;
+        width: 271px;
+    }
+}
+.valeursEduc p {
+    margin: 50px 160px;
+}
+}

@@ -1,33 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
-
 $font-1: "Roboto", sans-serif;
 $font-title: 18px;
 $font-par:14px;
 
-$color-1: #5EB7B7;
+$color-1: #5EB7B7 ;
 $color-2: #FAF3F3;
 $color-3: #474747;
-$color-4: rgb(32, 35, 42);
 
-* {
-    box-sizing: border-box;
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:$color-3;
     margin: 0;
-    padding: 0;
-  }
-  body {
-    
-    max-width: 1296px;
-    font-family: $font-1;
-  }
-  li {
-    list-style-type: none;
-  }
-  a {
-    text-decoration: none;
-    color: $color-3;
-    cursor: pointer;
-  }
-  a:visited {
-    color: $color-3;
-  }
-  
+}
+.home {
+    margin: 0 auto;
+    background-color: $color-3;
+}

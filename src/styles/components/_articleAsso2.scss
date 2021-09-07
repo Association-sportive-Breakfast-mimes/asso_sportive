@@ -1,0 +1,28 @@
+.Asso2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .AvantTout{
+        figure{
+            background-image: url(../../assets/img-asso/text_intro.svg) ;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center ;
+            height: 120px;
+            margin: 0px;
+        }
+        p{
+            text-align: center;
+            color: $color-2;
+            span {
+                color: $color-1;
+                font-weight: 700;
+            }
+            margin: 0px;
+            padding-top: .7rem;
+        }
+        width: 50vw;
+        height: 25vh;
+        margin: 1rem 0rem;
+    }
+}

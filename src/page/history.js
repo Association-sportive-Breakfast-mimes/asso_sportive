@@ -10,11 +10,13 @@ const history = () =>{
     return (
         <div className="history">
             <HeaderHistory />
-            <HistoireArticle1 />
-            <ValeursEduc />
-            <HistoireArticle2 />
-            <HistoireArticle3 />
-            <HistoireArticle4 />
+            <div className="center">
+                <HistoireArticle1 />
+                <ValeursEduc />
+                <HistoireArticle2 />
+                <HistoireArticle3 />
+                <HistoireArticle4 />
+            </div>
             <Footer />
         </div>
 

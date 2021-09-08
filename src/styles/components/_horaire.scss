@@ -5,7 +5,7 @@
     .section {
         display: grid;
         grid-template: 200px repeat(3, auto) / 1fr 600px 1fr;
-        background:$color-3;
+        background:$color-2;
     }
     
     .section h2 {
@@ -56,6 +56,8 @@
     .img-grid-1, .img-grid-3 {
         top: 130px;
         left: 50px;
+        border-bottom: 6px solid $color-1;
+        border-left: 6px solid $color-1;
     }
     .bloc-left {
         left: -300px;
@@ -96,7 +98,9 @@
     }
     .img-grid-2 {
         top: 130px;
-        left: -100px;
+        left: -50px;
+        border-bottom: 6px solid $color-1;
+        border-right: 6px solid $color-1;
     }
     
     .bloc-txt-right {

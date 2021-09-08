@@ -1,15 +1,15 @@
 import React from 'react';
-import Logo from './Logo';
 import Navigation from './Navigation';
 import Burger from './Burger';
+import LogoPages from './LogoPages';
 
 const HeaderHoaire =() => {
     return (
-        <div className='head'>
+        <div className='headhoraire'>
             <Burger />
             <Navigation />
-            <Logo />
-            <p>Si tu <span>vaincs un ennemi</span>, il sera  toujours<span> ton ennemi.</span> Si tu<span> convaincs</span> un ennemi, il<span> deviendra ton ami.</span></p>
+            <LogoPages />
+            <h1><span>Horaires de cours</span> <br /><span> &</span><br /> <span> Dates de compétitions</span></h1>
         </div>
     );
 };

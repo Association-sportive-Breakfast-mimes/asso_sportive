@@ -1,38 +1,40 @@
-.head {
+.headhoraire {
     padding: 25px 0 50px;
     margin: 0;
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("../../assets/articles/aikido1.png");
-    p {
+    background-image: url("../../assets/header/header.jpg");
+    height: 40vh;
+    h1 {
         text-align: center;
-        font-size: 14px;
+        font-size: 20px;
+        font-weight: bold;
         padding: 0 20px;
-        color: $color-2;
-        span {
-            color: $color-1;
-        }
+        color: $color-1;
+        text-transform: uppercase;
     }
 }
 
 @media screen and (min-width: 750px) {
-    .head {
-        background-image: url("../../assets/articles/aikido1.png");
+    .headhoraire {
+        background-image: url("../../assets/articles/adultes1.jpg");
         padding-bottom: 100px;
-    p {
+        height: 80vh;
+    h1 {
         width: 40%;
         margin: 0 auto;
         font-weight: 700;
         letter-spacing: 1px;
-        font-size: 16px;
-        padding: 0 50px;
+        font-size: 20px;
+        padding: 0 100px;
+        margin-top: 100px;
     }
     }
 }
 @media screen and (min-width: 1024px) {
-    .head {
-        p{
+    .headhoraire {
+        h1{
             width: 40%;
             margin: 50px auto;
         }

@@ -1,10 +1,11 @@
 .logosPages {
     display: block;
     margin: -10px 20px;
-    width: 70px;
+    width: 80px;
 }
 @media screen and (min-width: 750px) {
     .logosPages {
         margin: -40px 30px;
+        margin-bottom: 30px;
     }
 }

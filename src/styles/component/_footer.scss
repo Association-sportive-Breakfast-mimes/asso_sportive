@@ -1,0 +1,59 @@
+
+.main-footer {
+    display: flex;
+    flex-wrap: wrap;
+    &::before {
+        content: "";
+        display: block;
+        background-color: red;
+        height: 100px;
+        width: 100px;
+        position: relative;
+        top: -100px;
+        left: 0;
+        display: none;
+    }
+    div {
+        width: 50%;
+        text-align: center;
+        ul {
+            text-decoration: none;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            li {
+                a {
+                    color: $color-3;
+                    text-decoration: none;
+                    display: block;
+                    font-size: 16px;
+                    padding: 10px 5px;
+                }
+            }
+        }
+    }
+    .row-small {
+        width: 100%;
+        font-size: 12px;
+        order: 1;
+    }
+    .contact {
+        order: 1;
+        width: 100%;
+    }
+    .social {
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width: 500px) {
+    .main-footer {
+        .contact {
+                width: 33%;
+            }
+            div {
+                width: 33%
+            }
+
+    }
+    
+}

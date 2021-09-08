@@ -6,7 +6,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("../../assets/imageHeader.jpg");
-    height: 30vh;
+    height: 50vh;
     p {
         text-align: center;
         font-size: 17px;
@@ -33,7 +33,6 @@
 @media screen and (min-width: 750px) {
     .headerHistory {
         padding-bottom: 100px;
-        height: 40vh;
     p {
         text-align: center;
         font-size: 15px;

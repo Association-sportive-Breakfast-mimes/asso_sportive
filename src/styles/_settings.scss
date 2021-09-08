@@ -1,3 +1,6 @@
+$font-title: 18px;
+$font-par:14px;
+
 $color-1: #5EB7B7 ;
 $color-2: #FAF3F3;
 $color-3: #474747;
@@ -6,6 +9,11 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color:$color-2;
     margin: 0;
+}
+.center {
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: $color-2;
 }
 .home {
     margin: 0 auto;

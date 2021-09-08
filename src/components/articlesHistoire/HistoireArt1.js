@@ -4,7 +4,7 @@ import HistoireWrapper1 from './HistoireWrapper1';
 
 const HistoireArticle1 = () => {
     return (
-        <div className='article Hist1'>
+        <div className='articleH Hist1'>
             <FigureHistoire />
             <HistoireWrapper1 />
         </div>

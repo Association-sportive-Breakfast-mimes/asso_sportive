@@ -1,17 +1,4 @@
-.asso{
-    h1{
-        font-size: 3rem;
-        text-align: center;
-        letter-spacing: 2px;
-        font-weight: 600;
-        margin: 1.5rem;
-        color: $color-2;
-        span {
-            color: $color-1;
-            font-weight: 700;
-        }
-    }
-}
+
 .Asso1 {
     display: flex;
     flex-direction: column;
@@ -28,29 +15,6 @@
             margin: 1rem 0rem;
         }
     }
-    .AvantTout{
-        figure{
-            background-image: url(../../assets/img-asso/text_intro.svg) ;
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center ;
-            height: 120px;
-            margin: 0px;
-        }
-        p{
-            text-align: center;
-            color: $color-2;
-            span {
-                color: $color-1;
-                font-weight: 700;
-            }
-            margin: 0px;
-            padding-top: .7rem;
-        }
-        width: 50vw;
-        height: 25vh;
-        margin: 1rem 0rem;
-    }
     .Assowrap {
         width: 90vw;
         padding: 15px 20px;
@@ -63,12 +27,15 @@
             font-size: 18px;
             text-align: center;
             letter-spacing: 1px;
-            font-weight: 400;
-            color: $color-3;
+            font-weight: 800;
+            color: $color-1;
         }
         p {
             line-height: 1.3;
-            font-size: 10px;
+            font-size: 14px;
+            span{
+                color: $color-1;
+            }
         }
     }
 }
@@ -81,20 +48,22 @@
         padding: 1rem;
         .figureAsso1 {
             figure{
-                width: 40vw;
-                height: 35vh;
+                width: 35rem;
+                height: 25rem;
             }
         }
          .Assowrap {
-            width: 35vw;
+            width: 40rem;
             transform: translate(5%, 0%);
-            span{
-                color: $color-1;
-            }
         }
     }
 
 }
 @media screen and (min-width: 1024px) {
-   
+    .asso{
+        .center{
+            width: 1024px;
+            margin: auto;
+        }
+    }
 }

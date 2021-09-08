@@ -1,9 +1,10 @@
 import React from 'react';
+import Navigation from './Navigation'
 
 const Button = () => {
     return (
         <div className = "table">
-            
+            <Navigation />
             <table className = "table-responsive">
                 <thead>
                     <tr>
@@ -99,7 +100,7 @@ const Button = () => {
             </table>
             <div className = "Map">
                 <div className = "img">
-                <img src = "./img/simplon.png"></img>
+                <img src = "./img/simplon.png" alt ="map"></img>
                 </div>
                 <div className = "par">
                 <p>33 Bd du Général Leclerc <br /> 59100 Roubaix</p> <br />

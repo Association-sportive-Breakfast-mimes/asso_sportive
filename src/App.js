@@ -20,7 +20,6 @@ const App = () => {
   <Route path="/Association" exact component={asso} />
   <Route path="/Horaires" exact component={horaires} />
   <Route path="/Contact" exact component={contact} />
-/*Voir pour decaler les boutons dans la page horaires*/
   <Route path="/Button" exact component= {Button}/>
   <Route path="/Button1" exact component= {Button1}/>
   <Route path="/Button" exact component= {Button2}/>

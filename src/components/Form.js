@@ -1,4 +1,5 @@
 import emailjs from 'emailjs-com'
+
 const Mailer = () => {
     function sendEmail (e) {
         e.preventDefault();
@@ -24,7 +25,7 @@ const Mailer = () => {
             <form className='row' style={{margin:"25px 85px 75px 100px"}} 
                 onSubmit={sendEmail}
                 >
-                <label>name</label>
+                <label>Nom</label>
                 <input type="text" name="name" className="form-control"/>
 
                 <label>Email</label>

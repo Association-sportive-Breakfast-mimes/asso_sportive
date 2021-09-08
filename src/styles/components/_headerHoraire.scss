@@ -1,19 +1,10 @@
-// .head {
-//     /* imageHeader */
-// background-size: cover;
-// background-position: center bottom;
-// padding: 25px 0;
-// margin: 0 auto;
-// background-image: url("../../assets/imageHeader.jpg");
-// }
-
-.head {
-    padding: 25px 0 50px;
+.headHoraire {
+    padding: 25px 0 100px;
     margin: 0;
-    background-position: center bottom;
+    background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url("../../assets/header/headermobil.jpg");
+    background-image: url("../../assets/articles/aikido1.png");
+    height: 50vh;
     p {
         text-align: center;
         font-size: 14px;
@@ -26,8 +17,8 @@
 }
 
 @media screen and (min-width: 750px) {
-    .head {
-        background-image: url("../../assets/header/header.jpg");
+    .headHoraire {
+        background-image: url("../../assets/articles/aikido1.png");
         padding-bottom: 100px;
     p {
         width: 40%;
@@ -40,7 +31,7 @@
     }
 }
 @media screen and (min-width: 1024px) {
-    .head {
+    .headHoraire {
         p{
             width: 40%;
             margin: 50px auto;

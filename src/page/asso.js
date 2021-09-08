@@ -7,9 +7,11 @@ const asso = () =>{
     return (
         <div className="asso">
             <HeaderAsso />
-            <AssoArticle2 />
-            <AssoArticle1 />
-            <AssoArticle3 />
+            <div className="center">
+                <AssoArticle2 />
+                <AssoArticle1 />
+                <AssoArticle3 />
+            </div>
         </div>
     )
 }

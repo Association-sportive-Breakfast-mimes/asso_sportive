@@ -1,10 +1,11 @@
 import React from 'react';
-import CarteP from "../../components/articlesAsso/CartePersonnage";
+import Membre from "../../components/articlesAsso/MembreAsso";
 
 const AssoArticle3 = () => {
     return (
         <div className="Asso3">
-            <CarteP />
+            <h2>Les Membres de l'<span>Asso</span></h2>
+            <Membre />
         </div>
     );
 };

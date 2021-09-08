@@ -12,6 +12,7 @@ const asso = () =>{
                 <AssoArticle2 />
                 <AssoArticle1 />
                 <AssoArticle3 />
+                <Footer />
             </div>
         </div>
     )

@@ -1,0 +1,20 @@
+.contactForm {
+        display: flex;
+        margin-top:50px;
+        width: 50%;
+        background-color: $color-3;
+        background-position: center;
+        background-size: cover;
+        h1 {
+            flex-direction: column;
+            margin-top:25px;
+            color: $color-1;
+
+        }
+        .row {
+            margin:25px 85px 75px 100px;
+        }
+        .btn-primary {
+            margin-top: 30px;
+        }
+}

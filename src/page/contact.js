@@ -1,12 +1,16 @@
+import React from "react";
 import Footer from "../components/Footer";
 import Form from "../components/Form";
 import Navigation from "../components/Navigation";
+import Burger from "../components/Burger";
+import LogoPages from "../components/LogoPages";
 
 const contact = () =>{
     return (
         <div className="contact">
-        <Navigation />
-            <h1>Formulaire de contact</h1>
+            <Burger />
+            <Navigation />
+            <LogoPages />
             <Form />
             <Footer />
         </div>

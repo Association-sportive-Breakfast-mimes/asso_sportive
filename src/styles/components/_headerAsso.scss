@@ -6,25 +6,23 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("../../assets/img-asso/imageHeaderAsso.jpg");
-    height: 30vh;
-    
     p {
         text-align: center;
-        font-size: 24px;
+        font-size: 17px;
         padding: 20px;
         color: $color-3;
         font-weight: 700;
         margin: 60px auto;
-        width: 70%;
+        width: 60%;
         .span-asso {
             display: inline-block;
             color: $color-1;
-            font-size: 20px;
-            background-color: $color-3;
+            font-size: 24px;
+            background-color: #4747479e;
             padding: 5px 10px;
             margin-top: 10px;
-            font-weight: 500;
-            letter-spacing: 1px;
+            font-weight: 400;
+            letter-spacing: 2px;
         }
     }
 }
@@ -32,36 +30,22 @@
 @media screen and (min-width: 750px) {
     .headerAsso {
         padding-bottom: 100px;
-        height: 30vh;
-        a{
+        p {
+            text-align: center;
+            font-size: 15px;
+            padding: 20px;
             color: $color-3;
+            font-weight: 700;
+            margin-top: 100px;
         }
-    p {
-        text-align: center;
-        font-size: 28px;
-        padding: 20px;
-        font-weight: 700;
-        margin-top: 100px;
     }
-   
 }
 
-@media screen and (max-width : 750px) {
-    .headerAsso{
-        a{
-            color: white;
-        }
-    }
-    
-    
-}
-}
 @media screen and (min-width: 1024px) {
     .headerAsso {
         p{
-            width: 60%;
+            width: 40%;
             margin: 130px auto 50px;
         }
-        
     }
 }

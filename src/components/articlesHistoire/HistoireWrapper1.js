@@ -2,7 +2,7 @@ import React from 'react';
 
 const HistoireWrapper1 = () => {
     return (
-        <div className="wrap">
+        <div className="wrapH">
             <h1><span>Morihei UESHIBA</span>, Fondateur de l'Aïkido</h1>
             <p>Il fut inspiré par les meilleurs maîtres d'arts martiaux du Japon de l'époque (écoles de JUJITSU, d'escrime traditionnelle).<br />
 L'arrière-plan philosophique et/ou religieux (traditions Shinto, Zen, Tao) joua un rôle très important dans l'élaboration de cet <strong>art</strong>.<br /><br />

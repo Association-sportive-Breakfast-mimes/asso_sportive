@@ -1,14 +1,11 @@
-import React, {useEffect,useState} from 'react'
-import CartePer from "./CartePer"
-
-
+import React, {useEffect,useState} from 'react';
+import CartePer from "./CartePer";
 import {Grid, Box} from '@material-ui/core';
 import Skeleton from '@material-ui/lab/Skeleton';
 
 export default function Membre() {
     const [isLoading, setisLoading] = useState(true)
     const [Membre, setMembre] = useState(null)
-
     useEffect(() => {
         fetch('http://localhost:1337/membres',
         {

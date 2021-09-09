@@ -1,9 +1,10 @@
 import React from 'react';
-import AvantTout from "../../components/articlesAsso/AvantTout";
+import Intro from "../Intro";
 const AssoArticle2 = () => {
     return (
         <div className="Asso2">
-            <AvantTout />
+            <Intro />
+            <p>"Une bonne attitude, une bonne posture, reflètent un bon <span>état</span> d'<span>esprit</span>."</p>
         </div>
     );
 };

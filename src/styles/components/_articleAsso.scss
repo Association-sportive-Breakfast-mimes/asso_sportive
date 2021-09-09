@@ -1,69 +1,89 @@
-
-.Asso1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    .figureAsso1 {
-        figure{
-            background-image: url(../../assets/img-asso/FigureAsso1.jpg);
-            background-size: cover;
-            background-position: center ;
-            height: 25vh;
-            width: 90vw;
-            padding: 15px 20px;
-            margin: 1rem 0rem;
-        }
-    }
-    .Assowrap {
-        width: 90vw;
-        padding: 15px 20px;
+.Asso2{
+    margin-bottom: 2rem;
+    p{
+        text-align: center;
         color: $color-3;
-        background-color: $color-2;
-        opacity: 0.78;
-        box-shadow: -2px -2px 2px 1px $color-1;
-        margin: 0px;
-        h1 {
-            font-size: 18px;
-            text-align: center;
-            letter-spacing: 1px;
-            font-weight: 800;
-            color: $color-1;
+        span {
+        color: $color-1;
+        font-weight: 700;
         }
-        p {
+        margin: 0px;
+        padding-top: .7rem;
+    }
+}
+.Asso1{
+    margin: 0 10px 50px;
+    figure{
+        background-image: url(../../assets/img-asso/FigureAsso1.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 205px;
+        width: 100%;
+        margin: 0;
+    }
+    .Assowrap{
+        padding: 25px 30px;
+        color: #474747;
+        background-color: #FAF3F3;
+        h1{
+            font-size: 18px;
+            letter-spacing: 1px;
+            font-weight: 400;
+            margin-top: 0;
+        }
+        p{
             line-height: 1.3;
             font-size: 14px;
-            span{
-                color: $color-1;
-            }
+        }
+    } 
+}
+@media screen and (min-width: 425px) {
+    .Assowrap {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .Asso1, .Asso2 {
+        figure {
+            border: 0;
         }
     }
 }
-@media only screen and (min-width: 750px) {
+@media screen and (min-width: 750px) {
+    .Assowrap {
+        width: 40%;
+        margin: 0 auto;
+        position: relative;
+        box-shadow: -5px -5px $color-1;
+        position: relative;
+        left: 50%;
+        transform: translate(-65%, -30%); 
+    }
     .Asso1 {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        justify-content: center;
-        padding: 1rem;
-        .figureAsso1 {
-            figure{
-                width: 35rem;
-                height: 25rem;
+        margin: 0;
+        figure {
+            border: 0;
+            height: 300px;
+            width: 400px;
+            position: relative;
+            left: 50%;
+            transform: translate(-80%, 0%);
+            background-size: cover;
+            box-shadow: 5px 5px $color-2;
+        }
+        &:nth-of-type(odd) {
+            figure {
+                box-shadow: -5px 5px $color-2;
+                position: relative;
+                right: 50%;
+                transform: translate(-20%, 0%);    
             }
-        }
-         .Assowrap {
-            width: 40rem;
-            transform: translate(5%, 0%);
-        }
-    }
-
-}
-@media screen and (min-width: 1024px) {
-    .asso{
-        .center{
-            width: 1024px;
-            margin: auto;
+            .Assowrap {
+                position: relative;
+                left: -65%;
+                transform: translate(100%, -30%);
+                box-shadow: 5px -5px $color-1;
+            }
         }
     }
 }

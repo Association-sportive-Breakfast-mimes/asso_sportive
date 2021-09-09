@@ -20,7 +20,7 @@ export default function Membre() {
             setTimeout(()=>{
             setMembre(response) /*pour stocker dans le state la réponse de res*/
             setisLoading(false)/*on met à false une fois que les données sont bien chargées */
-        }, 2000)
+        }, 1000) /*pour générer un temps de chargement de 1s */
         })
     },[]/*on passe un tableau vide pour intérrompre la boucle infinie de strapi */) 
 

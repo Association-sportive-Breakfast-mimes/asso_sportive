@@ -30,6 +30,7 @@
 @media screen and (min-width: 750px) {
     .headerAsso {
         padding-bottom: 100px;
+        height: 30vh;
         a{
             color: $color-3;
         }
@@ -40,7 +41,6 @@
         font-weight: 700;
         margin-top: 100px;
     }
-   
 }
 
 @media screen and (max-width : 750px) {

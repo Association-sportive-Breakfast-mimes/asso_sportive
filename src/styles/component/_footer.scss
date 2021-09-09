@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     padding-top: 50px;
+    border-top: solid 10px $color-3;
     &::before {
         content: "";
         display: block;

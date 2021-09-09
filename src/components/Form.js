@@ -15,18 +15,50 @@ const Mailer = () => {
         }).catch(err=> console.log(err));
     }
     return (
-        <div className="contactForm">
-            <h1>Nous contacter</h1>
-            <form className='row' onSubmit={sendEmail}>
-                <label>Nom</label>
-                <input type="text" name="name" className="form-control"/>
-                <label>Email</label>
-                <input type="email" name="user_email" className="form-control"/>
-                <label>Message</label>
-                <textarea name='message' rows='15' className="form-control"/>
-                <input type='submit' value='Envoyer' className="form-control btn-primary"/>
+        <div className='main'>
+        <div className='contact1'>
+            
+            <h2>Formulaire de Contact</h2>
+
+            <form onSubmit={sendEmail}>
+                <div className='form-grid'>
+                    <div>
+                        <label htmlFor="name">Nom</label>
+                        <input type="text"/>
+                    </div>
+                    <div>
+                        <label htmlFor="email">Email</label>
+                        <input type="email"/>
+                    </div>
+                    <div className="textarea">
+                        <label htmlFor='message'>Message</label>
+                        <textarea></textarea>
+                    </div>
+                </div>
+                <input type='submit' className="button" value='Send Message'/>
             </form>
         </div>
+        <div className="animation">
+            <div className="words word-1">
+                    <span>A</span>
+                    <span>I</span>
+                    <span>K</span>
+                    <span>I</span>
+                    <span>D</span>
+                    <span>O</span>
+            </div>
+            <div className="words word-2">
+                <span>I</span>
+                <span>S</span>
+            </div>
+            <div className="words word-3">
+                <span>L</span>
+                <span>I</span>
+                <span>F</span>
+                <span>E</span>
+            </div>
+        </div>
+    </div>
     );
 }
 

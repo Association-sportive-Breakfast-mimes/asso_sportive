@@ -5,7 +5,6 @@ import Navigation from "./Navigation";
 
 const HeaderAsso = () => {
     return (
-
         <div className="headerAsso">
         <Navigation />
         <LogoPages />

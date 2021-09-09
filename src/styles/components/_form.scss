@@ -6,7 +6,7 @@
         background-size: cover;
         margin: 50px auto;
         h1 {
-            display: flex;
+            text-align: center;
             margin-top:25px;
             color: $color-1;
             justify-content: center;
@@ -16,6 +16,9 @@
             display: flex;
             flex-direction: column;
             padding: 30px 20px;
+            label {
+                color: $color-1;
+            }
         }
         .btn-primary {
             margin-top: 30px;

@@ -19,11 +19,11 @@ const Mailer = () => {
             <h1>Nous contacter</h1>
             <form className='row' onSubmit={sendEmail}>
                 <label>Nom</label>
-                <input type="text" name="name" className="form-control"/>
+                <input type="text" name="name" value="Veuillez saisir votre nom" className="form-control"/>
                 <label>Email</label>
-                <input type="email" name="user_email" className="form-control"/>
+                <input type="email" name="user_email"value="Veuillez saisir votre E-mail" className="form-control"/>
                 <label>Message</label>
-                <textarea name='message' rows='15' className="form-control"/>
+                <textarea name='message' rows='15' className="form-control" />
                 <input type='submit' value='Envoyer' className="form-control btn-primary"/>
             </form>
         </div>

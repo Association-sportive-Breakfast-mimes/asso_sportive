@@ -1,0 +1,111 @@
+.inter, .inter2, .interhisto {
+    background-color: $color-3;
+    padding-top: 50px;
+    .center {
+        background-color: $color-3;
+        color: $color-2;
+        padding-bottom: 50px;
+        img {
+            height: 80px;
+            padding: 20px;
+        }
+        p {
+            font-size: 14px;
+            padding: 0 10%;
+            margin: 25px auto 25px;
+            max-width: 600px;
+        }
+     }
+     h1 {
+         text-align: center;
+         font-size: 18px;
+         width: 80%;
+         margin: 0 auto;
+         span {
+            //  text-transform: uppercase;
+             color: $color-1;
+             display: inline-block;
+             font-size: 30px;
+             margin: 10px;
+             padding: 0px 5px;
+             background-color: $color-3;
+             box-shadow: -3px 4px 0px 0px $color-1;
+             font-family: 'Reem Kufi', sans-serif;
+         }
+
+     }
+
+    }
+
+.inter {
+    margin-top: 100px;
+    .center {
+        background-color: $color-3;
+        color: $color-2;
+        padding-bottom: 50px;
+        a {
+        box-shadow: 3px 4px 0px 0px $color-1;
+        padding: 10px 20px;
+        // position: relative;
+        display: block;
+        margin-left: 50%;
+        width: 100px;
+        text-align: center;
+        text-decoration: none;
+        color: $color-2;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin-top: 50px;
+    }
+    }
+}
+
+.inter2 {
+    .contact {
+        display: flex;
+        margin-left: 0;
+        justify-content: center;
+        a {
+            box-shadow: 3px 4px 0px 0px $color-1;
+            padding: 10px 20px;
+            // position: relative;
+            display: block;
+            margin-left: 0;
+            width: 100px;
+            text-align: center;
+            text-decoration: none;
+            color: $color-2;
+            text-transform: uppercase;
+            font-size: 12px;
+            margin-top: 50px;
+            margin: 25px 20px 25px;
+            &:nth-of-type(2) {
+                box-shadow: -3px 4px 0px 0px $color-1;
+
+            }
+        }
+    }
+}
+.interhisto {
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+@media screen and (min-width: 750px) {
+
+    .inter {
+        .center {
+            a {
+            margin-left: 60%;
+            }
+            h1 {
+                font-size: 30px;
+                span {
+                    font-size: 40px;
+                }
+            } 
+        }
+        
+    }
+
+}

@@ -1,0 +1,40 @@
+.headHoraire {
+    padding: 25px 0 100px;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../../assets/articles/aikido1.png");
+    p {
+        text-align: center;
+        font-size: 14px;
+        padding: 0 20px;
+        color: $color-2;
+        span {
+            color: $color-1;
+        }
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .headHoraire {
+        background-image: url("../../assets/articles/aikido1.png");
+        padding-bottom: 100px;
+    p {
+        width: 40%;
+        margin: 0 auto;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-size: 16px;
+        padding: 0 50px;
+    }
+    }
+}
+@media screen and (min-width: 1024px) {
+    .headHoraire {
+        p{
+            width: 40%;
+            margin: 50px auto;
+        }
+    }
+
+}

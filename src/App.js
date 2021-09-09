@@ -1,31 +1,32 @@
-import Home from "./pages/Home";
+import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Notfound from "./pages/Notfound";
-import Horaire from "./pages/Horaire";
-import Histoire from "./pages/Histoire";
-import Association from "./pages/Association";
-import Contact from "./pages/Contact";
-import Button from "./pages/Button";
-import Button1 from "./pages/Button1";
-import Button2 from "./pages/Button2";
-function App() {
+import home from './page/home';
+import history from './page/history';
+import asso from './page/asso';
+import horaires from './page/horaires';
+import contact from './page/contact';
+import notfound from './page/notfound';
+import Button from './components/Button';
+import Button1 from './components/Button1';
+import Button2 from './components/Button2';
+
+
+const App = () => {
   return (
-    <div className="App">
-        <BrowserRouter>
-        <Switch>
-        <Route path = "/" exact component = {Home}></Route>
-        <Route path = "/Histoire" exact component = {Histoire}></Route>
-        <Route path = "/Association" exact component = {Association}></Route>
-        <Route path = "/Horaire" exact component = {Horaire}></Route>
-        <Route path = "/Contact" exact component = {Contact}></Route>
-        <Route path = "/Button" exact component = {Button}></Route>
-        <Route path = "/Button1" exact component = {Button1}></Route>
-        <Route path = "/Button2" exact component = {Button2}></Route>
-        <Route component = {Notfound}></Route>
-        </Switch>
-        </BrowserRouter>
-    </div>
+    <BrowserRouter> 
+<Switch>
+  <Route path="/" exact component={home} />
+  <Route path="/Histoire" exact component={history} />
+  <Route path="/Association" exact component={asso} />
+  <Route path="/Horaires" exact component={horaires} />
+  <Route path="/Contact" exact component={contact} />
+  <Route path="/Button" exact component= {Button}/>
+  <Route path="/Button1" exact component= {Button1}/>
+  <Route path="/Button" exact component= {Button2}/>
+  <Route component={notfound} />
+</Switch>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

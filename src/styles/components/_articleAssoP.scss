@@ -1,0 +1,45 @@
+.Asso3{
+    h2{
+        text-align: center;
+        color: $color-3;
+        span {
+            color: $color-1;
+            font-weight: 700;
+        }
+        margin: 1rem;
+        padding-top: .7rem;
+    }
+    .MuiGrid-root{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .flip{
+        transform-style: preserve-3d;
+        transition: all 0.8s ease;
+        width: 220px;
+        height: 300px;
+        box-shadow: -2px -2px 2px 1px $color-1;
+        margin: 2em 5%;
+        
+        .Devant{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            background-color: rgb(163, 163, 163);
+        }
+        .Derriere{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(163, 1, 1, 0.555);
+            transform: rotateY(180deg);
+            backface-visibility: hidden;
+        }
+    }
+    .flip:hover{
+        transform: rotateY(180deg);
+    }
+}

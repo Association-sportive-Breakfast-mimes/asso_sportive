@@ -26,8 +26,6 @@ const home = () =>{
             </div>
             <Intersectionhoraire />
             <Footer />
-            
-            
         </div>
     )
 }

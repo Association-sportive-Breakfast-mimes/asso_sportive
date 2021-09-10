@@ -3,14 +3,15 @@ import Navigation from './Navigation';
 import Burger from './Burger';
 import LogoPages from './LogoPages';
 
-const HeaderHoaire =() => {
+const HeaderHoraire =() => {
     return (
-        <div className='headHoraire'>
+        <div className='headhoraire'>
             <Burger />
             <Navigation />
             <LogoPages />
+            <h1>Horaires et Dates</h1>
         </div>
     );
 };
 
-export default HeaderHoaire;
+export default HeaderHoraire;

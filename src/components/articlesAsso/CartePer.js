@@ -5,7 +5,7 @@ export default function CartePer ({perso}) {
     return (
         <div className="flip">
             <Devant perso={perso} key={perso.id} />
-            <Derriere />         
+            <Derriere perso={perso} key={perso.id} />         
         </div>
     )
 }

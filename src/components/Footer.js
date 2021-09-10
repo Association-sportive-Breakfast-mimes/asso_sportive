@@ -15,7 +15,7 @@ const Footer = () => {
             </ul>
             </div>
           {/* Column3 */}
-        <div className="contact">
+        <div className="contact1">
             <h4 className="h4_styles">COORDONEES</h4>
             <ul className="list-unstyled">
             <li><p> 620 92 92 13 </p></li> <br/>

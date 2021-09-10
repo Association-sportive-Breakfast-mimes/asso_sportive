@@ -2,6 +2,12 @@
 //     outline: none;
 // }
 .contact {
+    .navigation {
+        color: $color-3;
+    }
+    .main-footer {
+        background-color: $color-2;
+    }
     .logosPages {
         margin-bottom: 30px;
     }
@@ -83,7 +89,8 @@ textarea:focus{
 
 .button {
     border: none;
-    background: transparent;
+    background-color: $color-3;
+    opacity: 0.70;
     box-shadow: 3px 4px 0px 0px #5eb7b7;
     padding: 13px 30px;
     display: inline-block;
@@ -151,5 +158,8 @@ textarea{
 @media screen and (max-width: 750px) {
     .words {
         display: none;
+    }
+    .contact1 {
+        width: 90%;
     }
 }

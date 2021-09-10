@@ -12,7 +12,9 @@ const history = () =>{
             <HeaderHistory />
             <div className="center">
                 <HistoireArticle1 />
+                </div>
                 <ValeursEduc />
+                <div className="center">
                 <HistoireArticle2 />
                 <HistoireArticle3 />
                 <HistoireArticle4 />

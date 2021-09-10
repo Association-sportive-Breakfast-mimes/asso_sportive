@@ -5,8 +5,8 @@ import Derriere from "../../components/articlesAsso/Derriere";
 export default function CartePer ({perso}) {
     return (
         <div className="flip">
-            <Devant perso={perso} />
-            <Derriere />         
+            <Devant perso={perso} key={perso.id} />
+            <Derriere perso={perso} key={perso.id} />         
         </div>
     )
 }

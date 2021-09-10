@@ -8,6 +8,7 @@ const Footer = () => {
             <h4 className="h4_styles">ACCUEIL</h4>
             {/* LES LIENS VERS LES PAGES */}
             <ul>
+            <li><a href="/">Accueil</a></li>
                 <li><a href="/histoire">Histoire</a></li>
                 <li><a href="/Association">L'Asso</a></li>
                 <li><a href="/Horaires">Horaires</a></li>

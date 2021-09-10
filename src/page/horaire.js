@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import HeaderHoraire from '../components/HeaderHoraire';
-import Footer from '../styles/components/Footer';
 
-const hours = () =>{
+const horaire = () =>{
     return (
         <div className="horaires">
             <HeaderHoraire />
@@ -39,16 +38,16 @@ const hours = () =>{
                                 de son environnement est primordial. Le développement harmonieux de l’enfant et de l’adolescent 
                                 est notre objectif.
                             </p>
-                            <div className="btns btn">
+                            <div className="btns">
                                 <Link exact to = "/Button1">Horaires</Link>
                             </div>
                         </div>
                         
                     </div> 
                     {/* bloc Compétitions */}
-                    <div className="blocs competitions">
+                    <div className="blocS competitions">
                         <img src="./img/competions.jpg" alt="compétitions" className="img3"/>
-                        <div className="wrappers2">
+                        <div class="wrappers2">
                             <h3>Dates de compétitions</h3>
                             <p>La compétition impose des règles telles que de combattre à 1 contre 1, de ne pas 
                                 frapper à tel ou tel endroit, de segmenter par âges ou poids, ou encore d’imposer 
@@ -65,10 +64,9 @@ const hours = () =>{
                 </div>
             
             </div>
-            <Footer />
 
         </div>
     )
-};
+}
 
-export default hours;
+export default horaire;

@@ -8,10 +8,14 @@ $color-3: #474747;
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color:$color-3;
+    background-color:$color-2;
     margin: 0;
 }
 .home {
     margin: 0 auto;
     background-color: $color-3;
+}
+.center {
+    max-width: 1024px;
+    margin: 0 auto;
 }

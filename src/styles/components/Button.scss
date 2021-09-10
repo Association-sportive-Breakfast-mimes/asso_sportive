@@ -1,7 +1,9 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
-
+.bloc {
+    display: none;
+}
 .table {
     margin-top: 40px;
 }

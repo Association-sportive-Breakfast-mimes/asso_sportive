@@ -15,7 +15,7 @@ const navigation = () => {
                 L'asso
             </NavLink>
             <NavLink exact to="Horaires" activeClassName="nav-active">
-                Horaires
+               Les Horaires
             </NavLink>
             <NavLink exact to="Contact" activeClassName="nav-active">
             Contact

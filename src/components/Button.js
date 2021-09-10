@@ -1,14 +1,15 @@
 import React, {useState} from 'react';
-import { Inject, ScheduleComponent, Day, Week, WorkWeek,Month, Agenda, ResourceDirective, ResourcesDirective} from '@syncfusion/ej2-react-schedule';
+import { Inject, ScheduleComponent, Day, Week, WorkWeek, Month, Agenda, ResourcesDirective, ResourceDirective } from '@syncfusion/ej2-react-schedule';
 
 const Button = () => {
-   const loaclData = [
+   const localData = [
        {
            Id:1,
            Subject: 'Skartting',
-           StartTime: new Date(2021, 5, 8, 6, 0),
-           EndTime: new Date(2021, 5, 8, 7, 0),
-           RessourceID:1
+           StartTime: new Date(2019, 0, 11, 6, 30),
+           EndTime: new Date(2019, 0, 11, 4, 0),
+           RessourceID:1,
+           IsAllDay: true,
         },
         {
             Id:2,
@@ -32,7 +33,7 @@ const Button = () => {
     ];
     return (
         <div>
-            <ScheduleComponent SalectedDate = {new Date(2021, 0, 10)}  eventSettings = {loaclData}>
+            <ScheduleComponent SalectedDate = {new Date(2019, 0, 11)}  eventSettings = {localData}>
                 <Inject services= {[Day, Week, WorkWeek, Month, Agenda]}></Inject>
             </ScheduleComponent>
             <ResourcesDirective>

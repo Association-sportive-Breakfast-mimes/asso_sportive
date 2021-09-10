@@ -1,14 +1,12 @@
 import React from 'react';
-import Navigation from './Navigation'
 
 const Button = () => {
     return (
         <div className = "table">
-            <Navigation />
             <table className = "table-responsive">
                 <thead>
                     <tr>
-                        <th colSpan = "10"><h1>Cours Adultes</h1></th>
+                        <th colSpan = "10"><h1>Dates competitions</h1></th>
                     </tr>
                     <tr>
                         <th></th>
@@ -27,14 +25,14 @@ const Button = () => {
                     <tr>
                         <td>Lundi</td>
                         <td data-label = "10h - 11h"></td>
-                        <td data-label = "11h - 12h"></td>
-                        <td data-label = "12h - 13h"></td>
+                        <td data-label = "11h - 12h" ></td>
+                        <td data-label = "12h - 13h" ></td>
                         <td data-label = "15h - 16h"></td>
-                        <td data-label = "16h - 17h" className = "cours">16h - 17h</td>
-                        <td data-label = "17h - 18h" className = "cours">17h - 18h</td>
-                        <td data-label = "18h - 19h" className = "cours">8h - 19h</td>
-                        <td data-label = "19h - 20h" className = "cours">19h - 20h</td>
-                        <td data-label = "20h - 21h" className = "cours"> 20h - 21h</td>
+                        <td data-label = "16h - 17h" ></td>
+                        <td data-label = "17h - 18h" ></td>
+                        <td data-label = "18h - 19h"></td>
+                        <td data-label = "19h - 20h"></td>
+                        <td data-label = "20h - 21h"></td>
                     </tr>
                     <tr>
                         <td>Mardi</td>
@@ -42,47 +40,47 @@ const Button = () => {
                         <td data-label = "11h - 12h"></td>
                         <td data-label = "12h - 13h"></td>
                         <td data-label = "15h - 16h"></td>
-                        <td data-label = "16h - 17h" className = "cours">16h - 17h</td>
-                        <td data-label = "17h - 18h" className = "cours">17h - 18h</td>
-                        <td data-label = "18h - 19h" className = "cours">8h - 19h</td>
-                        <td data-label = "19h - 20h" className = "cours">19h - 20h</td>
-                        <td data-label = "20h - 21h" className = "cours"> 20h - 21h</td>
+                        <td data-label = "16h - 17h"></td>
+                        <td data-label = "17h - 18h" ></td>
+                        <td data-label = "18h - 19h"></td>
+                        <td data-label = "19h - 20h"></td>
+                        <td data-label = "20h - 21h"></td>
                     </tr>
                     <tr>
                         <td>Mercredi</td>
                         <td data-label = "10h - 11h"></td>
                         <td data-label = "11h - 12h"></td>
-                        <td data-label = "12h - 13h"></td>
+                        <td data-label = "12h - 13h" ></td>
                         <td data-label = "15h - 16h"></td>
                         <td data-label = "16h - 17h" className = "cours">16h - 17h</td>
                         <td data-label = "17h - 18h" className = "cours">17h - 18h</td>
-                        <td data-label = "18h - 19h" className = "cours">8h - 19h</td>
-                        <td data-label = "19h - 20h" className = "cours">19h - 20h</td>
-                        <td data-label = "20h - 21h" className = "cours"> 20h - 21h</td>
+                        <td data-label = "18h - 19h"></td>
+                        <td data-label = "19h - 20h"></td>
+                        <td data-label = "20h - 21h"></td>
                     </tr>
                     <tr>
                         <td>Jeudi</td>
                         <td data-label = "10h - 11h"></td>
-                        <td data-label = "11h - 12h"></td>
-                        <td data-label = "12h - 13h"></td>
+                        <td data-label = "11h - 12h" ></td>
+                        <td data-label = "12h - 13h" ></td>
                         <td data-label = "15h - 16h"></td>
-                        <td data-label = "16h - 17h" className = "cours">16h - 17h</td>
-                        <td data-label = "17h - 18h" className = "cours">17h - 18h</td>
-                        <td data-label = "18h - 19h" className = "cours">8h - 19h</td>
-                        <td data-label = "19h - 20h" className = "cours">19h - 20h</td>
-                        <td data-label = "20h - 21h" className = "cours"> 20h - 21h</td>
+                        <td data-label = "16h - 17h" ></td>
+                        <td data-label = "17h - 18h" ></td>
+                        <td data-label = "18h - 19h"></td>
+                        <td data-label = "19h - 20h"></td>
+                        <td data-label = "20h - 21h"></td>
                     </tr>
                     <tr>
                         <td>Vendredi</td>
                         <td data-label = "10h - 11h"></td>
-                        <td data-label = "11h - 12h" className = "cours"></td>
-                        <td data-label = "12h - 13h" className = "cours"></td>
+                        <td data-label = "11h - 12h" ></td>
+                        <td data-label = "12h - 13h" ></td>
                         <td data-label = "15h - 16h"></td>
                         <td data-label = "16h - 17h" className = "cours">16h - 17h</td>
                         <td data-label = "17h - 18h" className = "cours">17h - 18h</td>
-                        <td data-label = "18h - 19h" className = "cours">18h - 19h</td>
-                        <td data-label = "19h - 20h" className = "cours">19h - 20h</td>
-                        <td data-label = "20h - 21h" className = "cours"> 20h - 21h</td>
+                        <td data-label = "18h - 19h"></td>
+                        <td data-label = "19h - 20h"></td>
+                        <td data-label = "20h - 21h"></td>
                     </tr>
                     <tr>
                         <td>Samedi</td>
@@ -90,9 +88,9 @@ const Button = () => {
                         <td data-label = "11h - 12h" className = "cours">11h - 12h</td>
                         <td data-label = "12h - 13h"></td>
                         <td data-label = "15h - 16h"></td>
-                        <td data-label = "16h - 17h" className = "cours">16h - 17h</td>
-                        <td data-label = "17h - 18h" className = "cours">17h - 18h</td>
-                        <td data-label = "18h - 19h" className = "cours">18h - 19h</td>
+                        <td data-label = "16h - 17h"></td>
+                        <td data-label = "17h - 18h"></td>
+                        <td data-label = "18h - 19h"></td>
                         <td data-label = "19h - 20h"></td>
                         <td data-label = "20h - 21h"></td>
                     </tr>
@@ -100,7 +98,7 @@ const Button = () => {
             </table>
             <div className = "Map">
                 <div className = "img">
-                <img src = "./img/simplon.png" alt ="map"></img>
+                <img src = "./img/simplon.png"></img>
                 </div>
                 <div className = "par">
                 <p>33 Bd du Général Leclerc <br /> 59100 Roubaix</p> <br />

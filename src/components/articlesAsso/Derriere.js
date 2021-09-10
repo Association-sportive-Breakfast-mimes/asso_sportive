@@ -8,7 +8,6 @@ export default function Derriere ({perso}) {
                 {perso.presentation}
             </p>
         </div>          
-
     )
 }
 

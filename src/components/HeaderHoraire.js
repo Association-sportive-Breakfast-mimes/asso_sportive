@@ -14,4 +14,4 @@ const HeaderHoraire =() => {
     );
 };
 
-export default HeaderHoraire;
+export default HeaderHoraire

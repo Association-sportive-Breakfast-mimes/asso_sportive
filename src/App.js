@@ -21,7 +21,7 @@ const App = () => {
         <Route path="/Contact" exact component={contact} />
         <Route path="/Button" exact component= {Button}/>
         <Route path="/Button1" exact component= {Button1}/>
-        <Route path="/Button" exact component= {Button2}/>
+        <Route path="/Button2" exact component= {Button2}/>
         <Route component={notfound} />
       </Switch>
     </BrowserRouter>

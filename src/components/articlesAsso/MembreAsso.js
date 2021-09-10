@@ -3,7 +3,6 @@ import React, {useEffect,useState} from 'react'
 import CartePer from "./CartePer"
 import {Grid, Box} from '@material-ui/core';
 import Skeleton from '@material-ui/lab/Skeleton';
-import CartePer from "./CartePer";
 
 export default function Membre() { 
     const [isLoading, setisLoading] = useState(true) /*vérifie si le state est en chargement, le state devra passer à false lorsque les données seront chargées*/

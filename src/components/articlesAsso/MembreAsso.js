@@ -1,4 +1,6 @@
-import React, {useEffect,useState} from 'react';
+
+import React, {useEffect,useState} from 'react'
+import CartePer from "./CartePer"
 import {Grid, Box} from '@material-ui/core';
 import Skeleton from '@material-ui/lab/Skeleton';
 import CartePer from "./CartePer";
@@ -29,9 +31,6 @@ export default function Membre() {
             <Grid container spacing={3}>
             {isLoading ? (
                 <Box>
-                    <Skeleton variant="rect" width={210} height={118} animation="wave" />
-                    <Skeleton variant="rect" width={210} height={118} animation="wave" />
-                    <Skeleton variant="rect" width={210} height={118} animation="wave" />
                     <Skeleton variant="rect" width={210} height={118} animation="wave" />
                     <Skeleton variant="rect" width={210} height={118} animation="wave" />
                 </Box>
